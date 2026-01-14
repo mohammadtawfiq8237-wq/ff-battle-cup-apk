@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FF FIGHT ZONE BD – ডাউনলোড</title>
+
+<link rel="icon" href="https://i.imgur.com/your-logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+:root {
+    --bg:#0d1117;
+    --card:#161b22;
+    --text:#e6e6e6;
+    --blue:#007bff;
+    --hover:#0056b3;
+}
+body {
+    margin:0;
+    font-family:'Poppins','Hind Siliguri',sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    text-align:center;
+}
+.header {
+    background:var(--card);
+    padding:15px;
+    border-bottom:2px solid var(--blue);
+}
+.hero { padding:70px 20px; }
+.download-btn {
+    background:var(--blue);
+    color:#fff;
+    padding:18px 45px;
+    border-radius:50px;
+    font-size:1.3em;
+    font-weight:700;
+    display:inline-flex;
+    align-items:center;
+    gap:12px;
+    cursor:pointer;
+    transition:.3s;
+    box-shadow:0 0 25px rgba(0,123,255,.4);
+    text-decoration:none;
+}
+.download-btn:hover{
+    background:var(--hover);
+    transform:scale(1.05);
+}
+.instructions {
+    max-width:500px;
+    margin:20px auto;
+    background:rgba(255,255,255,.05);
+    padding:15px;
+    border-radius:12px;
+    font-size:14px;
+    color:#ccc;
+    border-left:4px solid var(--blue);
+}
+footer {
+    background:#050505;
+    padding:25px;
+    border-top:1px solid #222;
+    margin-top:50px;
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+    <h2><i class="fa-solid fa-gamepad" style="color:var(--blue)"></i> FF FIGHT ZONE BD</h2>
+</header>
+
+<section class="hero">
+    <h1>FF Battle Cup অ্যাপ ডাউনলোড</h1>
+    <p>নিচের বাটনে ক্লিক করলেই ডাউনলোড শুরু হবে</p>
+
+    <a href="https://github.com/yourusername/ff-battle-cup-apk/releases/download/v1.0/FF_Battle_Cup.apk"
+       class="download-btn">
+        <i class="fa-solid fa-download"></i> Download App
+    </a>
+
+    <div class="instructions">
+        ⚠️ ইন্সটল করতে সমস্যা হলে:<br>
+        Settings → Security → Install unknown apps → Chrome → Allow
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 FF FIGHT ZONE BD. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
